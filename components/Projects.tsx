@@ -35,7 +35,8 @@ const Projects = ({projects}: Props) => {
                             <h4 className='text-2xl font-semibold text-center'>
                                 {project?.title}{" "}
                                 <a
-                                target="_blank"  
+                                target="_blank" 
+                                rel="noreferrer"  
                                 href={project?.linkToBuild}
                                 className='underline decoration-[#F7AB0A]/50'>
                                     See live Version
