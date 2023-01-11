@@ -2,6 +2,11 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+[live version]( https://portfolio-2-0-beige.vercel.app)
+// link to portfolio for sanity https://www.sanity.io/manage/personal/project/qkrhl5p1
+// url for editing dynamic information http://localhost:3333/
+
+
 First, run the development server:
 
 ```bash
