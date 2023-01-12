@@ -11,7 +11,7 @@ type Props = {
 
 const Projects = ({projects}: Props) => {
   return (
-    <div className='md:space-y-20 space-y-5 overflow-y-scroll snap-start h-screen scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]'>
+    <div className='md:space-y-20 md:mt-0 mt-10 overflow-y-scroll snap-start h-screen scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]'>
         <h3 className='text-center my-10 uppercase tracking-[20px] text-gray-500 text-2xl'>Projects</h3>
         <motion.div 
         initial={{opacity: 0}}
@@ -39,7 +39,7 @@ const Projects = ({projects}: Props) => {
                                 rel="noreferrer"  
                                 href={project?.linkToBuild}
                                 className='underline decoration-[#F7AB0A]/50'>
-                                    See live Version
+                                    {" "}(See live Version)
                                 </a>
                             </h4>
                             
