@@ -2,6 +2,7 @@ import { GetStaticProps } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
+import { Router, useRouter } from 'next/router'
 import About from '../components/About'
 import Contact from '../components/Contact'
 import Header from '../components/Header'
@@ -26,6 +27,10 @@ type Props = {
 }
 
 export default function Home({pageInfo, experiences,skills,projects,socials}: Props) {
+  const router = useRouter()
+  if (router.isFallback) {
+    return <div>Loading...</div>
+ }
   return (
     <div className='bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory overflow-y-scroll 
     overflow-hidden  z-0 scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]'>
