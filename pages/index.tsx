@@ -7,22 +7,22 @@ import Head from 'next/head'
 // import Projects from '../components/Projects'
 // import Skills from '../components/Skills'
 // import WorkExperience from '../components/WorkExperience'
-import { Experience, PageInfo, Project, Skill, Social } from '../typings'
+// import { Experience, PageInfo, Project, Skill, Social } from '../typings'
 // import { fetchExperiences } from '../utils/fetchExperiences'
 // import { fetchPageInfo } from '../utils/fetchPageInfo'
 // import { fetchProjects } from '../utils/fetchProjects'
 // import { fetchSkills } from '../utils/fetchSkills'
 // import { fetchSocials } from '../utils/fetchSocials'
 
-type Props = {
-  pageInfo: PageInfo;
-  experiences: Experience[];
-  skills: Skill[];
-  projects: Project[];
-  socials: Social[]
-}
+// type Props = {
+//   pageInfo: PageInfo;
+//   experiences: Experience[];
+//   skills: Skill[];
+//   projects: Project[];
+//   socials: Social[]
+// }
 
-export default function Home({pageInfo, experiences,skills,projects,socials}: Props) {
+export default function Home() {
 
   return (
     <div className='bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory overflow-y-scroll 
