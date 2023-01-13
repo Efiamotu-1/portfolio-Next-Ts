@@ -33,7 +33,6 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
     <div className='text-center mt-20'>Hello World welcome to my revised portfolio</div>
-    <div className='text-3xl mt-20'>bienvenida</div>
     {/* <Header socials={socials}/> */}
     {/* Hero  */}
     {/* <section id='hero'>
