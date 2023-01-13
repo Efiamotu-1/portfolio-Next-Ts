@@ -14,15 +14,15 @@ import { Experience, PageInfo, Project, Skill, Social } from '../typings'
 // import { fetchSkills } from '../utils/fetchSkills'
 import { fetchSocials } from '../utils/fetchSocials'
 
-type Props = {
-  // pageInfo: PageInfo;
-  // experiences: Experience[];
-  // skills: Skill[];
-  // projects: Project[];
-  socials: Social[]
-}
+// type Props = {
+//   // pageInfo: PageInfo;
+//   // experiences: Experience[];
+//   // skills: Skill[];
+//   // projects: Project[];
+//   socials: Social[]
+// }
 
-export default function Home({socials}: Props) {
+export default function Home() {
 
   return (
     <div className='bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory overflow-y-scroll 
@@ -33,7 +33,7 @@ export default function Home({socials}: Props) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
     <div className='text-center mt-20'>Hello World welcome to my revised portfolio</div>
-    <Header socials={socials}/>
+    {/* <Header socials={socials}/> */}
     {/* Hero  */}
     {/* <section id='hero'>
       <Hero pageInfo={pageInfo}/>
